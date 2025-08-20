@@ -41,3 +41,11 @@
 📖 License
 
 This project is for educational purposes and demonstrates the implementation of the 8 Puzzle problem on Android.
+
+![2puzzle](https://github.com/user-attachments/assets/0b5d91c4-af82-4dcc-b093-25e79dd1c120)              ![1puzzle](https://github.com/user-attachments/assets/61a4ac5a-eb1c-46d1-8b37-8ca6c62c254a)
+
+![3puzzle](https://github.com/user-attachments/assets/758ceb72-e9e8-44a3-9700-3c65e443f060)      
+
+![1puzzle](https://github.com/user-attachments/assets/61a4ac5a-eb1c-46d1-8b37-8ca6c62c254a)
+
+![4puzzle](https://github.com/user-attachments/assets/53f4e18a-9be0-4c86-b289-16b22b878cf5)
