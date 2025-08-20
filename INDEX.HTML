@@ -1,0 +1,43 @@
+"index2.html"
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>8 Puzzle Game App</title>
+  <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+  <!-- Start Screen -->
+  <div id="start-screen" class="screen start-screen">
+    <button id="start-game-btn" class="start-game-btn">Start Game</button>
+  </div>
+
+  <!-- Game Screen -->
+  <div id="game-screen" class="screen game-screen hidden">
+    <div class="top-bar">
+      <span id="timer">Time Left: 05:00</span>
+    </div>
+    <div class="game-container">
+      <div class="tile" id="tile-1">1</div>
+      <div class="tile" id="tile-2">2</div>
+      <div class="tile" id="tile-3">3</div>
+      <div class="tile" id="tile-4">4</div>
+      <div class="tile" id="tile-5">5</div>
+      <div class="tile" id="tile-6">6</div>
+      <div class="tile" id="tile-7">7</div>
+      <div class="tile" id="tile-8">8</div>
+      <div class="tile blank" id="tile-blank"></div>
+    </div>
+    <button onclick="resetGame()">Reset Puzzle</button>
+  </div>
+
+  <!-- End Screen -->
+  <div id="end-screen" class="screen end-screen hidden">
+    <h2 id="end-message"></h2>
+    <button onclick="restartGame()">Play Again</button>
+  </div>
+
+  <script src="script2.js"></script>
+</body>
+</html>
