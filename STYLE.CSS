@@ -1,0 +1,113 @@
+"style2.css"
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  flex-direction: column;
+}
+
+/* Screen Styling */
+.screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* Start Screen */
+.start-screen {
+  background-color: lightgreen;
+}
+
+.start-game-btn {
+  padding: 20px 40px;
+  font-size: 1.5rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  animation: popUp 1.5s infinite;
+}
+
+@keyframes popUp {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
+
+/* Game Screen */
+.game-screen {
+  background-color: lightpink;
+  flex-direction: column;
+}
+
+.hidden {
+  display: none;
+}
+
+.top-bar {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 1.2rem;
+  color: red;
+}
+
+.game-container {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+  gap: 5px;
+  margin-top: 30px;
+}
+
+.tile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #007bff;
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.blank {
+  background-color: #f0f0f0;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+/* End Screen */
+.end-screen {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  flex-direction: column;
+  text-align: center;
+}
+
+.end-screen h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.end-screen button {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
